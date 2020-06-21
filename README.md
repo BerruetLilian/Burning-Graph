@@ -9,5 +9,6 @@ Le fichier "nfm_sparse" permet d'obtenir la node predominance du graphe.
 Le fichier "visuel" permet de lancer une application web qui permet de visualiser la brûlure étape par étape.
 Le fichier "visuel_meta" permet la même chose mais sur le métagraphe du graphe.
 Les autres fichiers contiennent des heuristiques pour brûler des graphes. 
+Le dossier data contient des graphes avec leurs fichiers textes.
 # Librairies
 numpy , scipy, matplotlib, pandas, networkx, numba, dash
