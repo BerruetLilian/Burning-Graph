@@ -1,0 +1,40 @@
+p {
+    font-size : 25px;
+    color : rgb(64,176,225);
+    font-family : "Lucida Console";
+}
+
+.anotation{
+	font-size : 10px;
+	color : rgb(0,255,0);
+	font-family : "Lucida Console";
+}
+
+button {
+	border-radius: 12px; 
+	background: rgb(250,104,90);
+	border:none;
+	font:bold 25px Verdana;
+	padding:6px 0 6px 0;
+}
+
+h1 {
+    font-size : 50px;
+    text-align: center;
+    color : rgb(64,176,225);
+    font-family : "Lucida Console";
+}
+
+body{
+    background-image : url("back.png");
+    background-size : cover;
+}
+
+.burning {
+    text-align: center;
+    font-size : 30px;
+    color : rgb(64,176,225)
+    font-family : "Lucida Console";
+}
+
+
