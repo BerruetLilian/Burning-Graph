@@ -30,6 +30,9 @@ def still_not_burn(sequence_longest_shortest_path,tmp_graph) :
 """
 Peut prendre en paramètre la matrice des plus courts chemins.
 Brûle le graphe et renvoie sa burning_sequence.
+/!\ Attention, la matrice des plus courts chemins est une matrice numpy 
+de nombre de noeuds * nombre de noeuds. La RAM peut donc être très vite surcahrgé 
+sur de grand graphe.
 """
 def burn(graph,shortest_paths_matrix=None) :
     if shortest_paths_matrix is None :

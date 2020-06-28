@@ -4,6 +4,8 @@ from networkx.algorithms.centrality import betweenness_centrality
 """
 Retourne le noeud avec la plus grande
 centralité d'intermédiarité.
+La méthode de centralité de networkx peut avoir en temps d'exécution conséquent 
+dans le cas de grand graphe.
 """
 def max_centrality(G) :
     centrality = betweenness_centrality(G)
